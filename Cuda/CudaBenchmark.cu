@@ -34,6 +34,11 @@ A, B, C : coefficient matrix, wrk1 : source term of Poisson equation
 wrk2 : working area, OMEGA : relaxation parameter
 BND : control variable for boundariesand objects(= 0 or 1)
 P : pressure
+------------------
+
+Translation to Cuda code to run on nvidia gpus,
+writen by Pablo Izquierdo Gonzalez, on August, 2021.
+
 * *******************************************************************/
 
 //C Includes
