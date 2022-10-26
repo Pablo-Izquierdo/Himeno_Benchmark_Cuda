@@ -9,6 +9,6 @@ The aim of this proyect was to implemente this benchmark to run on gpu. Also, se
 
 On https://i.riken.jp/en/supercom/documents/himenobmt/ you can see information about the benchmarck and download the original code.
 
-The graph represents the MFLOPS and Time depending on the size of the matixes, where you can see that cuda obtain better record. 
+The graph represents the MFLOPS and Time depending on the size of the matixes, where you can see that cuda obtain better record. (Tested on nvidia tesla gpu)
 
 Author: Pablo Izquierdo González
