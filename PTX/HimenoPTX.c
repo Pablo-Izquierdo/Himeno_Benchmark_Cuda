@@ -1,3 +1,15 @@
+/*******************************************************************
+HIMENO BENCHMARK 
+Code writen by Pablo Izquierdo González on August, 2021.
+
+On this code, the main functions (addgosa and main) are writen on PTX (assembly code of cuda)
+to run on nvidia gpu. The objective was try to optimize more the benchmark,
+trying to make the assembly code better thant de compiler (which it is quite difficult).
+
+Note: After a long time debuging I wasn´t able to run it, due to a problem on
+compilation time.
+
+* *******************************************************************/
 
 //#include <math.h>
 #include <stdlib.h>
