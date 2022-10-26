@@ -34,6 +34,11 @@
  wrk2 : working area, OMEGA : relaxation parameter
  BND:control variable for boundaries and objects ( = 0 or 1)
  P: pressure
+ ------------------
+ 
+Translation to OpenAcc code to run on nvidia gpus,
+writen by Pablo Izquierdo Gonzalez, on August, 2021.
+
 ********************************************************************/
 
 #include <stdio.h>
